@@ -100,13 +100,14 @@ font-size:50px;
 animation: fadeInUp 0.8s ease-out 0.2s backwards;
 }
 .up-s {
-    margin-top: 20px;
-    margin-bottom: 25px;
-    line-height: 1.6;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    line-height: 1.7;
     letter-spacing: 0.5px;
 }
 .hero-text h2 {
   animation: fadeInUp 0.8s ease-out 0.4s backwards;
+  margin-bottom: 25px;
 }
 
 .hero-text span{
@@ -119,7 +120,7 @@ animation: glow 2s ease-in-out infinite;
 }
 
 .hero-text h3{
-margin-top: -30px;
+margin-top: 0;
 margin-bottom: 40px;
 color:#cbd5f5;
 animation: fadeInUp 0.8s ease-out 0.6s backwards;
@@ -646,6 +647,7 @@ font-size:36px;
 
 .hero-text h2 {
   font-size: 1.3rem;
+  margin-bottom: 20px;
 }
 
 .hero-text h3 {
@@ -740,9 +742,10 @@ font-size: 0.9rem;
 @media(max-width:480px){
 
 .up-s {
-  margin-top: 12px;
+  margin-top: 10px;
   margin-bottom: 15px;
   font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 nav{
@@ -772,11 +775,13 @@ font-size:28px;
 
 .hero-text h2 {
   font-size: 1.1rem;
+  margin-bottom: 25px;
 }
 
 .hero-text h3 {
   font-size: 0.85rem;
-  margin-top: -20px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .hero-img img {
